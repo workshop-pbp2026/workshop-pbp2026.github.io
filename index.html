@@ -34,96 +34,39 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
 
-  <style>
-    .rcorners1 {
-      border-radius: 10px;
-      background: #ffffffd0;
-      padding: 5px;
-      font-size: 120%;
-      color: #5c5c5c;
-    }
-
-    .button {
-      border-radius: 10px;
-      background: #ffffffd0;
-      padding: 5px 15px 5px 15px;
-    }
-
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      /* background-color: #f9f9f9; */
-      min-width: 140px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      padding: 5px 15px 5px 15px;
-      z-index: 1;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  </style>
 </head>
 
-<section class="hero" style="position: relative; height: 45vh; background-image: url('./static/img/thumbnail.jpg'); background-size: cover; background-position: 70% center; margin-bottom: 2vh;">
-  <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 2.5%; background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%); pointer-events: none;"></div>
-  <div class="hero-body" style="display: flex; align-items: flex-end;">
-    <div class="container has-text-justified">
-
-      <h1 class="subtitle" style="font-size: 2rem; color: #fff; 
-      text-shadow: 
-          0 0 8px rgba(0, 0, 0, 1), 
-          0 0 8px rgba(0, 0, 0, 1),
-          0 0 8px rgba(0, 0, 0, 1);">
-      ICRA 2026 - Workshop on
-  </h1>
-  
-  <h1 class="title" style="font-size: 3rem; color: #fff; 
-      text-shadow: 
-          0 0 8px rgba(0, 0, 0, 1), 
-          0 0 8px rgba(0, 0, 0, 1),
-          0 0 8px rgba(0, 0, 0, 1);">
-      Pedestrian Behaviour Prediction
-  </h1>
-  
-    </div>
-  </div>
-</section>
 
 <body>
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-
-            </h1>
-            <h1 style="font-size: 1.5rem">
-            <b>Time:</b> June 1-5, ICRA 2026<br>
-            <b>Location:</b> Vienna, Austria<br>
-            <b>Posters:</b>  <br> <br>
-            <br></h1>
-          </div>
+  <!-- ############################## -->
+  <!-- Hero Section -->
+  <section class="hero" style="position: relative; height: 45vh; background-image: url('./static/img/thumbnail.jpg'); background-size: cover; background-position: 70% center; margin-bottom: 2vh;">
+    <!-- 底部渐变 -->
+    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 2.5%; background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%); pointer-events: none;"></div>
+    
+    <!-- 中心内容 -->
+    <div class="hero-body" style="display: flex; align-items: center; justify-content: center; height: 100%; text-align: center;">
+      <div class="columns is-centered">
+        <div class="column">
+          <h1 class="subtitle is-4" style="color: white; text-shadow: 0 0 6px rgba(0,0,0,0.8);">Workshop on</h1>
+          <h1 class="title is-2" style="color: white; text-shadow: 0 0 6px rgba(0,0,0,0.8);">Pedestrian Behaviour Prediction</h1>
+          <h1 class="is-5" style="color: white; text-shadow: 0 0 6px rgba(0,0,0,0.8);">at ICRA 2026, 1-5 June in Vienna, Austria</h1>
         </div>
       </div>
-    </div>
     </div>
   </section>
 
 
-  <section class="hero teaser">
+  <section class="hero">
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h2 class="subtitle has-text-centered">
-          <a href="#abstract" class="button">Abstract</a>
+          <a href="#introduction" class="button">Introduction</a>
+          <a href="#topics" class="button">Topics</a>
           <a href="#call4paper" class="button">Call for Papers</a>
-          <a href="#schedule" class="button">Schedule</a>
+          <!-- <a href="#news" class="button">News</a> -->
           <a href="#speakers" class="button">Speakers</a>
+          <a href="#schedule" class="button">Schedule</a>
           <a href="#accepted" class="button">Accepted Papers</a>
           <a href="#organizers" class="button">Organizers</a>
         </h2>
@@ -133,32 +76,293 @@
   </section>
 
   <!-- ############################## -->
-  <!-- motivation -->
+  <!-- Introduction -->
   <section class="section" style="margin-top: -50px">
     <div class="container is-max-desktop">
-      <section class="section" id="abstract">
+      <section class="section" id="introduction">
         <div class="container is-max-desktop content">
-          <h2 class="title">Abstract</h2
+          <h2 class="title">Introduction</h2>
           <div class="content has-text-justified">
-           <p>How can autonomous robots and vehicles predict pedestrian behavior with both high accuracy and social intelligence? This workshop at ICRA 2026 tackles the core challenges in prediction that impact pedestrian safety and interaction fluency. We move beyond technical fundamentals to explore cutting-edge solutions at the intersection of machine learning, AI, kinematics, and cognitive psychology.</p>
-
-            <p>The event will feature: 
-            <ol>
-              <li>Keynote talks from leading researchers illuminating the path forward;</li>
-              <li>Oral and poster presentations showcasing the latest breakthroughs from submitted papers;</li>
-              <li>Dynamic discussions and networking sessions to connect with academia and industry peers.</li>
-            </ol>
-            </p>
-
-            <p>Join us to shape the future of interactive autonomy. Share your insights, discover collaborative opportunities, and help bridge the gap between prediction and safe, natural human-robot coexistence.</p>
-
+            <p> How can autonomous robots and vehicles achieve high-precision prediction with social intelligence in complex human-robot interaction scenarios? Behavior prediction is essential in crowded environments like factories, hospitals, and shopping malls, as well as in traffic scenes where intelligent vehicles and pedestrians coexist. Nevertheless, it faces critical challenges: highly complex interactions, multi-modal dependencies, uncertain pedestrian intentions, and dynamically changing contexts. This workshop will explore prediction problems in these real-world settings. This workshop aims to enhance system safety, interaction fluency, and social acceptance. By integrating multidisciplinary approaches from machine learning, artificial intelligence, kinematics, and cognitive psychology, it will transcend conventional technical frameworks to collectively explore next-generation prediction paradigms suited for dynamic social environments.</p>
           </div>
         </div>
       </section>
 
-    <section class="section" style="margin-top: -50px">
-      <div class="container is-max-desktop">
+    <!-- <section class="section" style="margin-top: -50px">
+      <div class="container is-max-desktop"> -->
 
+  <!-- ############################## -->
+  <!-- Topics -->
+  <section class="section" id="topics">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Topics</h2>
+      <div class="content has-text-justified">
+        <p>
+          This workshop covers fundamental and applied research on pedestrian behavior prediction for autonomous systems.
+          Key topics include, but are not limited to:
+        </p>
+        <ul>
+          <li>Modeling pedestrian interactions with robots and autonomous vehicles (AVs).</li>
+          <li>Leveraging multi-modal sensing to enhance behavior prediction.</li>
+          <li>Understanding how environmental context and social norms influence interactions.</li>
+          <li>Modeling pedestrian behavior in both 2D and 3D spaces.</li>
+          <li>Capturing the inherent stochasticity in pedestrian actions during social interactions.</li>
+          <li>Quantifying and reasoning about uncertainty in predictions.</li>
+          <li>Integrating psychological insights to improve behavior models.</li>
+          <li>Developing real-time prediction systems for dynamic environments.</li>
+          <li>Developing, curating, and evaluating datasets for pedestrian behavior prediction.</li>
+          <li>Applying algorithmic approaches, including deep learning, probabilistic models, and hybrid frameworks.</li>
+          <li>Combining insights from psychology, cognitive science, neuroscience, and robotics for holistic modeling.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ############################## -->
+  <!-- Call for Papers -->
+  <section class="section" id="call4paper">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Call for Papers</h2>
+      <div class="content has-text-justified">
+        <p>We invite submissions of original research papers, case studies, and reviews related to pedestrian behavior prediction. Submissions should address one or more of the key topics outlined above. All papers will be peer-reviewed, and accepted papers will be presented at the workshop.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ############################## -->
+  <!-- Speakers -->
+  <section class="section" id="speakers">
+    <div class="container is-max-desktop content">
+      <h2 class="title" id="speakers">Keynote Speakers</h2>
+
+      <br/>
+
+      <!-- Hubert P. H. Shum -->
+      <div class="card">
+        <div class="card-content">
+          <a href="https://www.durham.ac.uk/staff/hubert-shum/" target="_blank">
+            <div class="columns is-vcentered">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="static/img/hubert_shum.jpeg" alt="Prof. Hubert Shum">
+                </figure>
+              </div>
+              <div class="column is-two-quarter">
+                <p class="title is-4">Prof. Hubert P. H. Shum</p>
+                <p class="subtitle is-6">Durham University, UK</p>
+                <p class="subtitle is-6">Confirmed</p>
+              </div>
+              <div class="column is-one-quarter">
+                <figure class="image is-256x256">
+                  <img src="static/img/Durham_Uni_logo.jpg" alt="Durham University Logo">
+                </figure>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <br/>
+
+      <!-- Alexandre Alahi -->
+      <div class="card">
+        <div class="card-content">
+          <a href="https://people.epfl.ch/alexandre.alahi" target="_blank">
+            <div class="columns is-vcentered">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="static/img/alexandre_alahi.jpg" alt="Prof. Alexandre Alahi">
+                </figure>
+              </div>
+              <div class="column is-two-quarter">
+                <p class="title is-4">Prof. Alexandre Alahi</p>
+                <p class="subtitle is-6">EPFL, Switzerland</p>
+                <p class="subtitle is-6">Invitation sent, confirmation pending</p>
+              </div>
+              <div class="column is-one-quarter">
+                <figure class="image is-256x256">
+                  <img src="static/img/Logo_EPFL_2019.svg.png" alt="EPFL Logo">
+                </figure>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <br/>
+
+      <!-- Javier Alonso-Mora -->
+      <div class="card">
+        <div class="card-content">
+          <a href="https://www.tudelft.nl/en/staff/j.alonsomora/" target="_blank">
+            <div class="columns is-vcentered">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="static/img/javier_alonso_mora.jpg" alt="Dr. Javier Alonso-Mora">
+                </figure>
+              </div>
+              <div class="column is-two-quarter">
+                <p class="title is-4">Dr. J. (Javier) Alonso-Mora</p>
+                <p class="subtitle is-6">Delft University of Technology, Netherlands</p>
+                <p class="subtitle is-6">Invitation sent, confirmation pending</p>
+              </div>
+              <div class="column is-one-quarter">
+                <figure class="image is-512x256">
+                  <img src="static/img/TU_delft_logo.jpg" alt="TU Delft Logo">
+                </figure>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ############################## -->
+  <!-- Workshop Schedule -->
+  <section class="section" id="schedule">
+      <div class="container is-max-desktop content">
+          <h2 class="title">Workshop Schedule</h2>
+          <div class="content has-text-justified">
+              <table class="table table-striped">
+                  <tr style="background-color: #fffddb">
+                      <td width="130">08:30 - 08:40</td>
+                      <td>Welcome and Opening Remarks</td>
+                  </tr>
+                  <tr style="background-color:#e4ffde">
+                      <td>08:40 - 09:20</td>
+                      <td>Keynote Talk by <b>Prof. Alexandre Alahi</b> and Q&A session (Confirmation pending)</td>
+                  </tr>
+                  <tr style="background-color:#e4ffde">
+                      <td>09:20 - 10:00</td>
+                      <td>Keynote Talk by <b>Prof. Hubert P. H. Shum</b> and Q&A session (Confirmed)</td>
+                  </tr>
+                  <tr style="background-color:#e4ffde">
+                      <td>10:00 - 10:40</td>
+                      <td>Keynote Talk by <b>Dr. J. (Javier) Alonso-Mora</b> and Q&A session (Confirmation pending)</td>
+                  </tr>
+                  <tr style="background-color:#ffe7d3">
+                      <td>10:40 - 11:00</td>
+                      <td>Coffee Break & Poster Session</td>
+                  </tr>
+                  <tr style="background-color:#DEF3FD">
+                      <td>11:00 - 11:30</td>
+                      <td>Oral Paper Presentation</td>
+                  </tr>
+                  <tr style="background-color:#DEF3FD">
+                      <td>11:30 - 11:50</td>
+                      <td>Small Group Discussion</td>
+                  </tr>
+                  <tr style="background-color:#DEF3FD">
+                      <td>11:50 - 12:20</td>
+                      <td>Doctoral Consortium</td>
+                  </tr>
+                  <tr style="background-color:#fffddb">
+                      <td>12:20 - 12:30</td>
+                      <td>Concluding Remarks</td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- ############################## -->
+  <!--  Organizers -->
+  <section class="section" id="Organizers">
+      <div class="container is-max-desktop content">
+          <h2 class="title" id="organizers">Organizers</h2>
+
+          <div class="columns is-multiline is-centered is-variable is-0">
+              <!-- Chongfeng Wei -->
+              <div class="column is-one-quarter">
+                  <a href="https://www.gla.ac.uk/schools/engineering/staff/chongfengwei/">
+                      <div class="card">
+                          <div class="card-image">
+                              <figure class="image">
+                                  <img class="is-rounded" src="static/img/chongfeng_wei.png" alt="Dr. Chongfeng Wei">
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                              <p class="title is-7 is-spaced">Dr. Chongfeng Wei</p>
+                              <p class="subtitle is-7">University of Glasgow, UK</p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <!-- Hamid Taghavifar -->
+              <div class="column is-one-quarter">
+                  <a href="https://www.concordia.ca/faculty/hamid-taghavifar.html">
+                      <div class="card">
+                          <div class="card-image">
+                              <figure class="image">
+                                  <img class="is-rounded" src="static/img/hamid_taghavifar.jpg" alt="Dr. Hamid Taghavifar">
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                              <p class="title is-7 is-spaced">Dr. Hamid Taghavifar</p>
+                              <p class="subtitle is-7">Concordia University, Canada</p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <!-- Edmond S. L Ho -->
+              <div class="column is-one-quarter">
+                  <a href="https://www.gla.ac.uk/schools/computing/staff/shulimho/">
+                      <div class="card">
+                          <div class="card-image">
+                              <figure class="image">
+                                  <img class="is-rounded" src="static/img/edmond_ho.jpg" alt="Dr. Edmond S. L Ho">
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                              <p class="title is-7 is-spaced">Dr. Edmond S. L Ho</p>
+                              <p class="subtitle is-7">University of Glasgow, UK</p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <!-- Wenshuo Wang -->
+              <div class="column is-one-quarter">
+                  <a href="https://wenshuowang.github.io">
+                      <div class="card">
+                          <div class="card-image">
+                              <figure class="image">
+                                  <img class="is-rounded" src="static/img/wenshuo_wang.jpg" alt="Prof. Wenshuo Wang">
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                              <p class="title is-7 is-spaced">Prof. Wenshuo Wang</p>
+                              <p class="subtitle is-7">Beijing Inst. of Tech., China</p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <!-- Xingchen Zhang -->
+              <div class="column is-one-quarter">
+                  <a href="https://experts.exeter.ac.uk/43335-xingchen-zhang">
+                      <div class="card">
+                          <div class="card-image">
+                              <figure class="image">
+                                  <img class="is-rounded" src="static/img/xingchen_zhang.png" alt="Dr. Xingchen Zhang">
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                              <p class="title is-7 is-spaced">Dr. Xingchen Zhang</p>
+                              <p class="subtitle is-7">University of Exeter, UK</p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+          </div>
+      </div>
+  </section>
 
 
 </body>
