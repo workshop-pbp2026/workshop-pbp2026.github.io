@@ -155,3 +155,34 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+
+
+.accepted-papers h2 {
+  margin-bottom: 20px;
+}
+
+.paper-item {
+  margin-bottom: 18px;
+}
+
+.paper-item p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.paper-item a {
+  color: #2b6cb0;
+  text-decoration: none;
+}
+
+.paper-item a:hover {
+  text-decoration: underline;
+}
+
+.paper-authors {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 0.9em;
+  color: #555;
+}
